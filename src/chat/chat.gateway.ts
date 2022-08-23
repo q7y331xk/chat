@@ -73,15 +73,14 @@ export class ChatGateway
   }
 
   afterInit(server: Server) {
-    console.log('init');
     this.logger.log('Init');
-  }
-
-  handleDisconnect(socket: Socket) {
-    this.logger.log(`Client Disconnected : ${socket.id}`);
   }
 
   handleConnection(socket: Socket) {
     this.logger.log(`Client Connected : ${socket.id}`);
+  }
+
+  handleDisconnect(socket: Socket) {
+    this.logger.log(`Client Disconnected : ${socket.id}`);    
   }
 }
