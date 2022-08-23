@@ -29,7 +29,8 @@
     "@nestjs/websockets": "^9.0.8",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^8.0.0",
